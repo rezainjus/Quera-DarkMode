@@ -1,0 +1,36 @@
+{
+  "name": "ٰQuera Dark Mode Beta",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Gate to the Queras Dark world!",
+  "icons": {
+    "16": "icons/v16.png",
+    "48": "icons/v48.png",
+    "128": "icons/v128.png"
+  },
+
+  "default_locale": "en",
+  "options_page": "src/options/index.html",
+
+  "browser_action": {
+    "default_icon": "icons/v48.png",
+    "default_title": "Quera DarkMode",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "contentSettings",
+    "contextMenus",
+    "https://Quera.ir/*"
+
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://Quera.ir/*"
+      ],
+      "css": [
+        "src/inject/Quera.css"
+      ]
+    }
+  ]
+}

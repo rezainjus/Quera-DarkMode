@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+    <title>Dark Mode Always Extension </title>
+    <link href="/css/range-slider.css" rel="stylesheet" type="text/css">
+    <link href="/css/balloon.css" rel="stylesheet" type="text/css">
+    <link href="/css/css-popup.css" rel="stylesheet" type="text/css">
+    <link href="/css/toggle-switch.css" rel="stylesheet" type="text/css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/range-slider.min.js"></script>
+    <script src="/js/option-popup.js"></script>
+
+    <style>
+    #dnm-brightness-warning {
+        direction: rtl;
+    }
+
+    .container {
+        background: #242424;
+
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id='dma-logo-cont'></div>
+    <div id="container">
+        <form id='google-chrome-options'>
+            <fieldset class="dma-darknightmode-block">
+                <label class='dnm-chrome-action-label dark1'>VIRGOOL</label>
+                <label class='dnm-chrome-action-label mode1'>DARK MODE</label>
+                <div class="switch-toggle switch-3 switch-candy dnm-chrome-action-div">
+                    <input id="on" name="mode_status" type="radio" checked="" value='off' class='mode-status-radio'>
+                    <label for="on" >Off</label>
+                    <input id="off" name="mode_status" type="radio" value='on' class='mode-status-radio'>
+                    <label for="off" >On</label>
+                    <a></a>
+                </div>
+                <span id='intro-text-div' class='intro-text' style="display:none;">
+                    Auto mode automatically switches on the Dark Night Mode after 8:00 pm your local time and switches of after 6:00 am.
+                </span>
+            </fieldset>
+        </form>
+    </div>
+  </body>
+</html>

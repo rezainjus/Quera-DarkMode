@@ -1,0 +1,25 @@
+# Created 2020-04-12 Sun 15:49
+#+OPTIONS: title:nil date:nil '
+#+AUTHOR: Reza Aghajani
+#+startup: nofold
+#+macro: badge #+HTML: <a href="$2"><img src="https://img.shields.io/$3&style=flat-square" alt="$1"/></a>
+#+macro: install {{{badge(Install Directly with Stylus,https://raw.githubusercontent.com/brettm12345/github-moonlight/master/github.user.css,badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true)}}}
+#+export_file_name: ../readme
+#+html: <div align="center">
+
+* Quera Dark Mode
+
+A dark userstyle for [[https://github.com/atomiks/moonlight-vscode-theme][Quera]]
+made with :heart:
+
+#+html: <a href="https://raw.githubusercontent.com/brettm12345/github-moonlight/master/github.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat-square" alt="Install Directly with Stylus"/></a>
+#+html: <a href="/commits/master"><img src="https://img.shields.io/github/commit-activity/m/rezainjus/Quera-DarkMode?logo=github&style=flat-square" alt="Commit Activity"/></a>
+#+html: <a href="/stargazers"><img src="https://img.shields.io/github/stars/rezainjus/Quera-DarkMode?logo=github&style=flat-square" alt="Stars"/></a>
+#+html: <a href="/releases"><img src="https://img.shields.io/github/v/tag/rezainjus/Quera-DarkMode?logo=git&style=flat-square" alt="Latest Release"/></a>
+[[file:img/ss.png]]
+#+html: </div>
+
+** Installation
+
+You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on the install link below.
+#+html: <a href="https://raw.githubusercontent.com/brettm12345/github-moonlight/master/github.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat-square" alt="Install Directly with Stylus"/></a>
