@@ -9,7 +9,7 @@
 
 * Quera Dark Mode
 
-A dark userstyle for [[https://github.com/atomiks/moonlight-vscode-theme][Quera]]
+A dark userstyle for [[https://quera.ir][Quera]]
 made with :heart:
 
 #+html: <a href="https://userstyles.org/styles/190959/quera-darkmode"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat-square" alt="Install Directly with Stylus"/></a>
